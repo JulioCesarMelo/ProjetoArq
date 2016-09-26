@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjetoArq</string>
+
+    <string name="sValorSaque">Digite o valor do saque</string>
+    <string name="sBotaoSacar">Sacar</string>
+    <string name="title_activity_display_message">Mostra a Mensagem</string>
+</resources>

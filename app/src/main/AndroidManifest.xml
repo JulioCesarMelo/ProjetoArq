@@ -19,8 +19,10 @@
         </activity>
         <activity
             android:name=".DisplayMessageActivity"
-            android:label="@string/title_activity_display_message">
-        </activity>
+            android:label="@string/title_activity_display_message" />
+        <activity android:name=".TelaExtrato" />
+        <activity android:name=".TelaLogin" />
+        <activity android:name=".TelaMenu"></activity>
     </application>
 
 </manifest>

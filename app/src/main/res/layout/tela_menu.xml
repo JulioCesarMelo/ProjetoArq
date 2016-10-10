@@ -24,14 +24,22 @@
         android:orientation="horizontal">
 
     <Button
-        android:layout_width="170dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/bSacar" />
+        android:text="@string/bSacar"
+        android:onClick="sendMessageSaque"/>
 
     <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="@string/bConsultarExtrato" />
+    android:text="@string/bConsultarExtrato"
+    android:onClick="sendMessageExtrato"/>
     </LinearLayout>
+
+    <Button
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bSair"
+        android:onClick="sendMessageSair"/>
 
 </LinearLayout>

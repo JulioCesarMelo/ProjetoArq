@@ -64,7 +64,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sBotaoConsultar"
-            android:onClick="sendMessage"/>
+            android:onClick="sendMessage"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bCancelar"
+            android:onClick="sendMessageCancelar"
+            android:layout_weight="0.06" />
 
     </LinearLayout>
 

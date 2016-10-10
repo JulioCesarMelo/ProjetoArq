@@ -22,4 +22,12 @@
     <string name="bSacar">Sacar</string>
     <string name="bConsultarExtrato">Consultar Extrato</string>
     <string name="sMenu">Menu</string>
+
+    <string name="bFinalizar">Finalizar</string>
+
+    <string name="bSair">Sair</string>
+    <string name="bCancelar">Cancelar</string>
+
+    <string name="sResultadoExtrato">Resultado Extrato</string>
+    <string name="sResultadoSaque">Resultado Saque</string>
 </resources>

@@ -31,7 +31,9 @@
             android:label="Saque" />
         <activity
             android:name=".TelaMenu"
-            android:label="Menu"></activity>
+            android:label="Menu" />
+        <activity android:name="res.layout.Banco" />
+        <activity android:name=".Banco"></activity>
     </application>
 
 </manifest>

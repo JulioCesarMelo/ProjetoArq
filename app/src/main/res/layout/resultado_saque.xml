@@ -11,9 +11,12 @@
     tools:context=".ResultadoSaque">
 
     <TextView
+        android:textSize="28dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/response"
         android:hint="@string/sResultadoSaque"/>
+
 
     <LinearLayout
         android:layout_width="350dp"

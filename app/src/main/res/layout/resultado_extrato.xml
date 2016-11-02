@@ -8,22 +8,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".ResultadoExtrato">
+    tools:context=".ResultadoExtrato"
+    android:weightSum="1">
 
     <TextView
+        android:textSize="28dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/sResultadoExtrato"/>
+        android:hint="@string/sResultadoExtrato"
+        android:layout_weight="0.06" />
 
-    <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:gravity="center">
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        android:layout_weight="1.10">
+    </ListView>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bFinalizar"
-            android:onClick="sendMessage"/>
-    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bFinalizar"
+        android:onClick="sendMessage"/>
 </LinearLayout>

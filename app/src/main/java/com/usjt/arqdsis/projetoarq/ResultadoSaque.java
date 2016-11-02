@@ -12,6 +12,13 @@ public class ResultadoSaque extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resultado_saque);
+        Intent intent = getIntent();
+        String valor = intent.getStringExtra(TelaSaque.VALOR);
+        TextView text = (TextView) findViewById(R.id.response);
+
+        text.setText("Saque de R$"+ valor+" realizado com sucesso!!");
+
+
     }
 
     public void sendMessage(View view){

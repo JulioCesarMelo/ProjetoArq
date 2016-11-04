@@ -11,13 +11,6 @@
     tools:context=".TelaLogin">
 
     <EditText
-        android:id="@+id/numBanco"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/sNumBanco"
-        android:layout_gravity="center"
-        android:gravity="center"/>
-    <EditText
         android:id="@+id/numAgencia"
         android:layout_width="150dp"
         android:layout_height="wrap_content"

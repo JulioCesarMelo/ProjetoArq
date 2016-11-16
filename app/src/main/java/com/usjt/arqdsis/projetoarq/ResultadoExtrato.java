@@ -120,17 +120,17 @@ public class ResultadoExtrato extends AppCompatActivity {
         extratoList = new ExtratoList(data,2000.00, 's');
         lista.add(extratoList);
 
-        c.set(2016, Calendar.MARCH, 28);
+        c.set(2016, Calendar.OCTOBER, 28);
         data = c.getTime();
         extratoList = new ExtratoList(data,2000.00, 'd');
         lista.add(extratoList);
 
-        c.set(2016, Calendar.OCTOBER, 23);
+        c.set(2016, Calendar.NOVEMBER, 01);
         data = c.getTime();
         extratoList = new ExtratoList(data,1500.00, 's');
         lista.add(extratoList);
 
-        c.set(2016, Calendar.OCTOBER, 28);
+        c.set(2016, Calendar.NOVEMBER, 07);
         data = c.getTime();
         extratoList = new ExtratoList(data,2000.00, 'd');
         lista.add(extratoList);
